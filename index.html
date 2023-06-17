@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bored App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="/" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" type="image/svg+xml" href="icon.svg" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="side__title">
+        <svg viewBox="0 0 500 500" width="500" height="500">
+          <defs>
+            <path
+              id="circle"
+              d="
+            M 125, 250
+           a 125,125 0 1,1 250,0
+           a 125,125 0 1,1 -250,0"
+            ></path>
+          </defs>
+          <text width="150">
+            <textPath xlink:href="#circle">are you bored?</textPath>
+          </text>
+        </svg>
+      </div>
+      <div class="side__image"></div>
+      <div class="side__blob">
+        <svg viewBox="0 0 500 500" width="100%">
+          <path
+            id="blob"
+            d="M445.5,308.5Q433,367,375.5,382.5Q318,398,268.5,432Q219,466,169.5,433.5Q120,401,101.5,350Q83,299,68,245.5Q53,192,87.5,147Q122,102,169,57.5Q216,13,266,59.5Q316,106,366,124.5Q416,143,437,196.5Q458,250,445.5,308.5Z"
+            fill="#99b686"
+          ></path>
+        </svg>
+      </div>
+      <div class="side__desc">
+        <p class="random__idea">let's see what you can do in your free time!</p>
+      </div>
+      <div class="side__desc-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-sun"
+        >
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+      </div>
+      <button class="side__button">click me 🌿</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

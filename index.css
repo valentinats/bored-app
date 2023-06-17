@@ -1,0 +1,125 @@
+html,
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #f1f1f1;
+}
+
+.side__button {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.side__title {
+  position: absolute;
+  z-index: 20;
+  top: -3px;
+  width: 250px;
+  height: 250px;
+  font-weight: 700;
+  transition: all ease 1s;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  pointer-events: none;
+}
+
+.side__title svg {
+  fill: #ffffff;
+  text-shadow: 0px 0px 2px #99b686;
+}
+
+.side__image {
+  position: relative;
+  z-index: 10;
+  top: 130px;
+  float: right;
+  margin-right: 65px;
+  width: 230px;
+  height: 230px;
+  border-radius: 250px;
+  background-image: url("https://64.media.tumblr.com/766bf176c9f4a3a2316fd0305f5df134/tumblr_o3qh9qa1UK1qc3nl6o1_540.gifv");
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 0px 0px 5px rgba(78, 78, 78, 0.1);
+}
+
+.side__blob {
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  width: 450px;
+  height: 450px;
+  pointer-events: none;
+}
+
+.side__desc {
+  position: absolute;
+  z-index: 15;
+  top: 310px;
+  width: 200px;
+  height: auto;
+  max-height: 180px;
+  overflow: auto;
+  padding: 18px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(5px);
+  font-size: 18px;
+  color: #4f4e4e;
+}
+
+.side__desc-icon {
+  margin-left: -10px;
+  position: absolute;
+  z-index: 20;
+  top: 286px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgba(153, 182, 134, 0.4);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side__desc-icon svg {
+  color: #89a577;
+}
+
+.side__button {
+  position: absolute;
+  z-index: 20;
+  top: 440px;
+  left: 52%;
+  width: 160px;
+  height: auto;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+svg.feather {
+  width: 18px;
+  height: 18px;
+}
+
+.side__button a {
+  color: #4f4e4e;
+  font-size: 17px;
+}
